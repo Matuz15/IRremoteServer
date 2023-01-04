@@ -4,6 +4,6 @@ const codes = {
 };
 
 function ir(key){
-  msg(codes[key]);
+  alert(codes[key]);
   transmit(codes[key]);
 }
